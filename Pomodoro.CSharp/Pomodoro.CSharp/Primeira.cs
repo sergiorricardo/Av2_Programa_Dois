@@ -30,6 +30,7 @@ namespace Pomodoro.CSharp
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            timer1.Stop();
             MessageBox.Show("acabou o tempo");
             Application.Exit();
         
